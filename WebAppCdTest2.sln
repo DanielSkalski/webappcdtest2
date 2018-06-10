@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppCdTest2", "WebAppCdTest2\WebAppCdTest2.csproj", "{302B0887-FB54-418B-A3B2-C636D168BE7F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{605BB909-BFB9-47B7-AE54-AEC764B04ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppCdTest2.Tests", "Tests\WebAppCdTest2.Tests\WebAppCdTest2.Tests.csproj", "{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{302B0887-FB54-418B-A3B2-C636D168BE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302B0887-FB54-418B-A3B2-C636D168BE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302B0887-FB54-418B-A3B2-C636D168BE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C9E15AE-18F1-40BF-8AFB-CC67BCDC0803} = {605BB909-BFB9-47B7-AE54-AEC764B04ED2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {991DA178-E8BC-4DB4-A8A1-A59B2D8B0AE5}
