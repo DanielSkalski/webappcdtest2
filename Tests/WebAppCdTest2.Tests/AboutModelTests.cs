@@ -19,7 +19,7 @@ namespace WebAppCdTest2.Tests
             _model.OnGet();
 
             // assert
-            Assert.Equal("Your application description page.", _model.Message);
+            Assert.Equal("Your application description page", _model.Message);
         }
     }
 }
